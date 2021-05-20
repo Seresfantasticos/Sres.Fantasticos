@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+h1{
+    font-family:verdana;
+    text-align: center;
+    color: tomato;
+}
+.margen_borde {
+    margin-left: 65px;
+    padding-left: 65px;
+    margin-right: 65px;
+    padding-right: 65px;
+}
+.alineacion {
+    margin-left: 15px;
+}
+.imgs1{
+    text-align: center;
+    border: 5px solid rgb(109, 214, 255) ;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://img.freepik.com/vector-gratis/fondo-pintura-acuarela-rosa-vibrante_53876-58930.jpg?size=626&ext=jpg); 
+    background-size: cover;
+    background-position: center;
+}    
+.i1 {
+  text-align: left;
+  margin: 3px;
+  margin-left: 15px;
+  padding-left: 15px;
+}
+.i2 {
+    text-align: center;
+    margin: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.i3{
+    text-align: right;
+    margin: 3px;
+    margin-right:a 15px;
+    padding-right: 15px;
+}
+.linea {
+    border: 2px solid rgb(158, 109, 255) ;
+}
+.L2{
+    margin-left: 15px;
+    margin-right: 65px;
+}
+.parrafo_1{
+    text-align: center;
+    font-family: monospace;
+    color:mediumslateblue;
+    
+}
+.dotter{
+    border-color: darkorchid;
+}
+.texto_fantasy_intro{
+font-family:'Courier New';
+text-align:center;
+}
+.parrafo_2{
+    text-align: left;
+    font-family: monospace;
+    color:mediumslateblue;
+}
+.list_1{
+    font-family:'Courier New';
+text-align:left;
+}
+.parrafo_3{
+    font-family:'Courier New';
+text-align:left;
+}
+table {
+   border: 3px solid rgb(104,176,243); 
+    padding: 2px;
+}
+th, td {
+  border: 2px solid rgb(104, 176, 243);
+}
+
+.boton{
+    background-image: linear-gradient(to left, #ffafca, #ffe1c6, #ffe3ae, #dbffc3, #c7dfff,  #b4afff); 
+    border-color: #faffaf;
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: cursive; 
+}
+.a {
+    text-decoration: none;
+    color: black;
+}
+.a:active {
+    color: coral;
+}
+.tabla{
+    text-align: center;
+}
+.ser {
+    text-align: center;
+}
+.alineacio_fotos {
+    border: solid 15px rgb(109,172,255);
+}
+
+.fotos{
+    text-align: center;
+    justify-content: flex-start;
+    }
+h3{
+     text-align:center;
+     font-family: Arial, Helvetica, sans-serif;
+    }
+li  {
+    margin-left: 15px;
+    }
+.tabla_items {
+    margin: 2px;
+    padding: 2px;
+}
+#lago {
+    padding: 4px;    
+}
+
+.nav1 {
+    position: absolute;
+    width: 100%;
+    z-index: 50;
+    margin: 0;
+    padding-top: 0px;
+}
+.contenedor--flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menu {
+    width: 100%;
+}
+.icon {
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+    cursor: pointer;
+    color: rgb(0,0,0);
+    background-color: rgba(258,258,258,0.5);
+    position: relative;
+}
+.icon:active {
+    background: rgba(0,0,0,0.2);
+    border-radius: 15%;
+}
+.items {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    list-style: none;
+    height: 0;
+    overflow: hidden;
+    transition: height .4s linear;
+}
+.menu-link {
+    margin-right: 100px;
+    margin-left: 85px;
+    padding: 0.2px;
+    text-decoration: none;
+    color: black;
+    background: rgba(258,258,258,0.5);
+    display: block;
+}
+.menu-link:hover {
+    background: rgb(109,172,255);
+    border: solid 0.5px white;
+}
+.mostrar {
+    height: 200px;
+}
+#espacio {
+    margin-top: 250px;
+}
+#ultimo {
+    text-align: center;
+}
